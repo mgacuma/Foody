@@ -7,7 +7,7 @@
     tools:context=".ui.fragments.recipes.RecipesFragment">
 
     <com.todkars.shimmer.ShimmerRecyclerView
-        android:id="@+id/recylerview"
+        android:id="@+id/recyclerview"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -41,7 +41,7 @@
         android:alpha="0.5"
         android:src="@drawable/ic_sad"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/recylerview"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
